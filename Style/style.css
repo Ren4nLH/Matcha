@@ -215,7 +215,7 @@ button{
 @media (max-width: 575px) {
     .navbar, .actions { display: none; }
     .main { margin-top: 130px; }
-    h1 { font-size: 30px; }
+    .main > h1 { font-size: 30px; }
     .promo { 
         flex-direction: column; 
         max-width: 90%;

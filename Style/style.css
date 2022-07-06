@@ -144,10 +144,10 @@ button{
 }
 
 .features {
-    background-color: #c3e0dd;
-    padding:5% 10%;
     display:grid;
     grid-template:repeat(2,1fr) / repeat(2,1fr);
+    background-color: #c3e0dd;
+    padding:5% 10%;
 }
 
 .features .feature-card {
@@ -237,15 +237,15 @@ button{
     .publish > form > div > input { width: 65%;  }
     
     .features {
-        grid-template: repeat(4, 1fr) / 1fr;
+        grid-template: repeat(4, 1fr) / 1fr; 
         padding-left: 0;
         padding-right: 0;
-    }
+    } 
 
     .feature-image {
         display: none;
     }
-    
+     
 }
 
 /** dispositivos pequeños en vista horizontal */
